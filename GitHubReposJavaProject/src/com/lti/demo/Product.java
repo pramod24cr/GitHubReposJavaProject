@@ -8,7 +8,11 @@ public class Product
 	
 
 	Product (int prdID, String prdName, int prdCost)
-	{}
+	{	super();
+		this.prdID=prdID;
+		this.prdName=prdName;
+		this.prdCost=prdCost;
+	}
 	public int getPrdID() {
 		return prdID;
 	}
